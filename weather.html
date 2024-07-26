@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather | Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="Pasted image (2).png" alt="">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="weather" class="weather-container">
+        <div class="weather-content">
+            <h2>Weather Information</h2>
+            <div class="search">
+                
+                <input type="text" class="input-keyword" placeholder="Enter city name">
+                <select id="city-dropdown" class="dawn">
+                    <option value="">Select a City</option>
+                    <option value="New York">New York</option>
+                    <option value="Jepang">Jepang</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Korea">Korea</option>
+                    <option value="Indonesia">Indonesia</option>
+                    
+                </select>
+                <button id="button-addon2">Search</button>
+            </div>
+            <div class="result"></div>
+        </div>
+    </div>
+    <footer>
+        <p>By Arifin &copy; 2024 Weather App. All rights reserved.</p>
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>
+
